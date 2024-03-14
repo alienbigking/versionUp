@@ -1,13 +1,16 @@
 {
-  "name": "common-cli",
-  "version": "1.0.6-beta.2",
+  "name": "versionUp",
+  "version": "1.6.0",
   "description": "版本自动生成推荐",
   "main": "index.js",
   "type": "module",
-  "scripts": {},
+  "scripts": {
+    "start": "node ./bin/version.js",
+    "init": "node ./bin/version-init.js"
+  },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/alienbigking/common-cli.git"
+    "url": "git+https://github.com/alienbigking/versionUp.git"
   },
   "author": "Allen.ouyang0923",
   "license": "ISC",
